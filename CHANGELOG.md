@@ -16,6 +16,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [v0.0.1] - 2024-03-01
 
 ### Added
+
+### Changed
+
+### Fixed
+
+## [v0.0.1] - 2024-03-01
+
+### Added
 - Adding new site using Hugo template
 - Adding GH actions for auto build to GH pages 
 
