@@ -1,0 +1,14 @@
+############################
+## CONFIGURATION
+############################
+
+baseURL: 'https://crajapakshe.github.io'
+title: 'CR'
+
+############################
+## MISC
+############################
+
+enableEmoji: true
+disableKinds: ['taxonomy', 'term']
+languageCode: 'en-us'
