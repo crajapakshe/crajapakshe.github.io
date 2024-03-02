@@ -23,3 +23,7 @@ jobs:
       version_script: "npm run version:changelog --"
     secrets:
       DEVOPS_PAT: ${{ secrets.DEVOPS_PAT }}
+
+  publish:
+    needs: version-bump
+    uses: .github/workflows/buildDeploy.yml@main
