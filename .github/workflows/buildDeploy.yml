@@ -31,8 +31,12 @@ defaults:
     shell: bash
 
 jobs:
+  validate_actor:
+    uses: crajapakshe/devops-tools/.github/workflows/is_authorized_user.yml@main
+
   build: 
-    runs-on: ubuntu-latest 
+    runs-on: ubuntu-latest
+    needs: validate_actor
     steps:
       - name: Checkout
         uses: actions/checkout@v4
