@@ -10,7 +10,7 @@ on:
 
 jobs:
   validate_actor:
-    uses: "crajapakshe/devops-tools/.github/workflows/is_authorized_user.yml"
+    uses: crajapakshe/devops-tools/.github/workflows/is_authorized_user.yml@main
 
   version-bump:
     permissions:
