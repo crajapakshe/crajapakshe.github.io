@@ -5,7 +5,7 @@ name: Build & Deploy site to GH Pages
 
 # Will fire when a new release is published
 on:
-  workflow_dispatch:
+  workflow_call:
   # Automated Deployments
   # release:
   #   types: [published]
