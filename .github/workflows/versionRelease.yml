@@ -76,7 +76,7 @@ jobs:
 
       - name: Approve PR
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.DEVOPS_PAT }}
         run: gh pr review $PR_URL --approve
 
       - name: Merge PR
