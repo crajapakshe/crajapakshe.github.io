@@ -26,4 +26,4 @@ jobs:
 
   publish:
     needs: version-bump
-    uses: ./github/workflows/buildDeploy.yml@main
+    uses: ./.github/workflows/buildDeploy.yml@main
