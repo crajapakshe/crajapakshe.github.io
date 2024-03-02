@@ -13,6 +13,7 @@ jobs:
     uses: crajapakshe/devops-tools/.github/workflows/is_authorized_user.yml@main
 
   version-bump:
+    needs: validate_actor
     permissions:
       contents: write
       pull-requests: write
