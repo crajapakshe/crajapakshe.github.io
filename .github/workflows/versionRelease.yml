@@ -24,6 +24,10 @@ jobs:
     secrets:
       DEVOPS_PAT: ${{ secrets.DEVOPS_PAT }}
 
-  # publish:
-  #   needs: version-bump
-  #   uses: crajapakshe/crajapakshe.github.io/.github/workflows/buildDeploy.yml@main
+  publish:
+    needs: version-bump
+    permissions:
+      contents: read
+      id-token: write
+      pages: write
+    uses: crajapakshe/crajapakshe.github.io/.github/workflows/buildDeploy.yml@main
