@@ -8,6 +8,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] - yyyy-mm-dd
 
 ### Added
+
+### Changed
+
+### Fixed
+
+## [v0.1.1] - 2024-10-17
+
+### Added
  - Adding new release note file
 
 ### Changed
