@@ -8,8 +8,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ## [Unreleased] - yyyy-mm-dd
 
 ### Added
+ - Adding new release note file
 
 ### Changed
+ - Update release note using RELEASE-NOTES.md file
+ - Update GH workflow with note creations
+ - Updated `version-changelog.js` file for create release note file
 
 ### Fixed
 

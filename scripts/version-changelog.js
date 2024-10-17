@@ -24,3 +24,10 @@ const updated = changelog.replace(/## \[Unreleased\] - yyyy-mm-dd/, `${cleanSect
 fs.writeFileSync(changelogPath, updated);
 
 console.log(`Wrote to ${changelogPath}`);
+const releaseNotesPath = path.resolve(__dirname, '../RELEASE-NOTES.md');
+
+const releaseNotesContent = `## [${version}] - ${date}\n\n${changelog.match(/## \[Unreleased\] - yyyy-mm-dd\n([\s\S]*?)(?=\n## \[|$)/)[1]}`;
+
+fs.writeFileSync(releaseNotesPath, releaseNotesContent);
+
+console.log(`Wrote to ${releaseNotesPath}`);
