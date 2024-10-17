@@ -11,6 +11,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
  - Adding Attest deployment step to build workflow
 
 ### Changed
+ - Adding `attestations: write` permissions publish stage 
 
 ### Fixed
 

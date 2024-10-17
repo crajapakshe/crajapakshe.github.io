@@ -30,4 +30,5 @@ jobs:
       contents: read
       id-token: write
       pages: write
+      attestations: write
     uses: crajapakshe/crajapakshe.github.io/.github/workflows/buildDeploy.yml@main
